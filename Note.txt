@@ -1,0 +1,26 @@
+-Tipe data
+
+Type data pada javascript di jadikan satu yaitu (Number),
+Cara Membuat nummber langsung ketikan nilainya saja,kalau nilai
+desimal di berikan tanda "." .
+
+-Number Notation
+
+Javascript mendukung number notation,default ada basis 10, 
+java script mendukung binary,hexadecima dan octal
+penulisan:
+Hexa : 0xff
+Binari:0b10101
+Octal:0o10
+
+-Tipe Data Boolean
+
+Tipe data boolean adalah tipe data yang berisikan data kebenaran, 
+artinya hanya ada dua data yaitu benar(true),salah(false).
+
+-tipe data string
+
+tipe data string atau text data yang berisikan kumpulan charakter
+gak harus ada katanya juga boleh kosong juga,Contonh nya hello world
+penulisan boleh menggunkan petik dua atau petik satu.Untuk menambah string
+/menggabungkan string menggunakan operatur "+".
