@@ -1,26 +1,23 @@
--Tipe data
+-Escape Sequence
 
-Type data pada javascript di jadikan satu yaitu (Number),
-Cara Membuat nummber langsung ketikan nilainya saja,kalau nilai
-desimal di berikan tanda "." .
+javascript mendukung escape ssequence merupakan karaktet
+khusu contoh nya :
+\n = enter
+\t = tab
+\' = '
+\" = "
+\\ = \
+ 
+-Variable
 
--Number Notation
+Varible adalah tempat untuk menyimpan data ,dengan
+menyimpan data di variable,kita gak perlu membuat terus menerus nilai nya
+untuk membuat varible di javascript kita bisa menggunakan kata kunci var diikuti dengan nama varible nya,
+javaScript adalah dynamic language, artinya variable di javascript tidak terpaku harus menggunkan sati tipe data
+ 
+-Mengakses Variable
+Salah satu keuntungan menggunakan variable adalah variable bisa digunakan kembali
+hal ini akan mempermudah ketika membutuhkan data yang sama berkali-kembali
+untuk mengakses varible,kita cukup menyebutkan nama variable nya
 
-Javascript mendukung number notation,default ada basis 10, 
-java script mendukung binary,hexadecima dan octal
-penulisan:
-Hexa : 0xff
-Binari:0b10101
-Octal:0o10
-
--Tipe Data Boolean
-
-Tipe data boolean adalah tipe data yang berisikan data kebenaran, 
-artinya hanya ada dua data yaitu benar(true),salah(false).
-
--tipe data string
-
-tipe data string atau text data yang berisikan kumpulan charakter
-gak harus ada katanya juga boleh kosong juga,Contonh nya hello world
-penulisan boleh menggunkan petik dua atau petik satu.Untuk menambah string
-/menggabungkan string menggunakan operatur "+".
+ 
