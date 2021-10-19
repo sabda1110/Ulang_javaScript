@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Bilangan</title>
+</head>
+<body>
+    <script>
+        //Konversi String to Number;
+        const nilai1 = parseInt("1");
+        const nilai2 = 1;
+        let total = nilai1 + nilai2;
+        document.writeln(`<pre> ${total} </pre>`);
+        total = "2.3";
+        document.writeln(`<pre> ${parseInt(total)} </pre>`);
+        document.writeln(`<pre> ${parseFloat(total)} </pre>`);
+        document.writeln(`<pre> ${Number(total)} </pre>`);
+
+        //Konversi Number To string
+        const a =1;
+        const b =3;
+        const nilai = a.toString() + b.toString();
+        document.writeln(`<pre> ${nilai} </pre>`);
+    </script>
+</body>
+</html>

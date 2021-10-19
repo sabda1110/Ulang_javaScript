@@ -1,11 +1,10 @@
--console
-javascript memiliki fitur untuk melakukkan logging bernama console
-logging adalah mekanisme yang bisa dilakukan oleh programmer untuk menampilkan informasi dari aplikasi yang sedang berjalan,tanpa harus menggangu alur kerja aplikasi dan juga interaksi user
-untuk melakukan ini,kita bisa menggunakan fitur console di javaScript
-untuk menggunakan console,kita cukup gunakan perinctah console di javaScript
+-Konversi String dan Number
+Saat membuat aplikasi,kadang kita input dari pengguna selalu dalam bentuk String
+Sedangkan kita ingi mengelola datanya dalam bentuk Number
+Maka sangat di sarankan untuk melakukan konversi tipe data
 
-Console Method       -      Keterangan
-console.info(...)           Memberikan informasi
-console.warn(...)           Memberitahu informasi peringatan
-console.error(...)          Memberitahu informasi error
-console.table(...)          Memberitahu informasi dalam bentuk table
+Function              -    Keterangan
+parsenInt(string)          Mengkonversi dari string ke number(Bilangan Bulat)
+parseFloat(string)         Mengkonversi dari sting ke number(Bilangan pecahan)
+Number(string)             Mongkonversi dari sting ke number(Bilangan bulat maupun pecahan)
+number.toString()          Mongkonversi dari number ke string
