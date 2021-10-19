@@ -1,23 +1,11 @@
--Escape Sequence
+-console
+javascript memiliki fitur untuk melakukkan logging bernama console
+logging adalah mekanisme yang bisa dilakukan oleh programmer untuk menampilkan informasi dari aplikasi yang sedang berjalan,tanpa harus menggangu alur kerja aplikasi dan juga interaksi user
+untuk melakukan ini,kita bisa menggunakan fitur console di javaScript
+untuk menggunakan console,kita cukup gunakan perinctah console di javaScript
 
-javascript mendukung escape ssequence merupakan karaktet
-khusu contoh nya :
-\n = enter
-\t = tab
-\' = '
-\" = "
-\\ = \
- 
--Variable
-
-Varible adalah tempat untuk menyimpan data ,dengan
-menyimpan data di variable,kita gak perlu membuat terus menerus nilai nya
-untuk membuat varible di javascript kita bisa menggunakan kata kunci var diikuti dengan nama varible nya,
-javaScript adalah dynamic language, artinya variable di javascript tidak terpaku harus menggunkan sati tipe data
- 
--Mengakses Variable
-Salah satu keuntungan menggunakan variable adalah variable bisa digunakan kembali
-hal ini akan mempermudah ketika membutuhkan data yang sama berkali-kembali
-untuk mengakses varible,kita cukup menyebutkan nama variable nya
-
- 
+Console Method       -      Keterangan
+console.info(...)           Memberikan informasi
+console.warn(...)           Memberitahu informasi peringatan
+console.error(...)          Memberitahu informasi error
+console.table(...)          Memberitahu informasi dalam bentuk table

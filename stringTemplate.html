@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Template</title>
+</head>
+<body>
+<script>
+    const nilai = 80;
+    const nama = "Sabda Setiawan";
+    const template = `Nama : ${nama} Ket: ${nilai>75}`;
+    console.info(template);
+
+    const multiline = `
+    Hello My Name Sabda
+    You can call me Sabda Bro
+    My addres in strest meranti No .02`;
+
+    document.writeln("<pre>");
+    document.writeln(multiline);
+    document.writeln("</pre>");
+</script>    
+</body>
+</html>
