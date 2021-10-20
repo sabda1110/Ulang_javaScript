@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arrayKosong = [];
+        let arrayNama = ["Sabda","Budi","Ariandi"];
+        arrayNama.push("Ida"); //Menambahkan Data
+        console.table(arrayNama);
+
+        console.info(arrayNama.length);
+        console.info(arrayNama[2]);
+        arrayNama[0] = "Setiawan"; //Mengubah Array
+        arrayNama[1] = "Saridad";
+
+        console.table(arrayNama);
+
+        delete arrayNama[1];//Di akan menghilangkan di index 1 
+        console.table(arrayNama); 
+
+        arrayNama[1] = parseInt(arrayNama[0]);
+        console.table(arrayNama); 
+
+        arrayNama.push(["rahmat","ardiansyah"]);
+        console.table(arrayNama); 
+
+        arrayNama[4][0] = "Abi";
+        console.table(arrayNama); 
+    </script>
+</body>
+</html>

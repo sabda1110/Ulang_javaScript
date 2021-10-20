@@ -8,3 +8,68 @@ parsenInt(string)          Mengkonversi dari string ke number(Bilangan Bulat)
 parseFloat(string)         Mengkonversi dari sting ke number(Bilangan pecahan)
 Number(string)             Mongkonversi dari sting ke number(Bilangan bulat maupun pecahan)
 number.toString()          Mongkonversi dari number ke string
+
+-NaN
+bagaiman jika ternyata data string yang kita coba konversi ke number bukanlah data yang valid
+Jika data string yang kita coba lakukan konversi bukanlah data valid,mak hasil dari konversi tersebut adalah Nan(Not a Number)
+NaN adalah number spesial yang menyebutkan bahwa ini bukan number
+Jika NaN dioperasikan dengan data number lainnya,maka hasilnya menjadi NaN lagi
+
+-Tipe Data Array
+Array adalah tipe data yang berisikan kumpulan data
+Array di javascript memiliki sifat dinamis, artinya datanya bisa bertambah dengan sendiri saat kita memasukan data ke dalam Array
+
+-Cara kerja Array
+Setiap data di array akan disimpan dalam posisi berurutan,dimana urutan pertama dimulai dari nomor 0
+Setiap kita menambahkan data ke Array,otomatis data akan disimpan di urutan terahkir
+Urutan di Array kita sebut dengan index
+
+-Cara Menambahkan Array
+Menggunakan push
+contoh : Varible.push("Sabda");
+
+-Operasi di Array
+Operasi              -     Keterangan
+array.push(value)          Menambahkan data di array
+array.length               Untuk mendapatkan panjang Array
+array[index]               Mendapatkan data di posisi index
+array[index]=value         Mengubah data di posisi index
+delete array[index]        Menghapus data 
+
+-Tipe Data Object
+
+-Associative Array
+Di bahasa pemrograman lain seperti PHP,kita bisa menggunakan index berupa tipe data lain selain number,misal String
+Fitur ini biasanya disebut associative array atau hash
+Di JavaScript associative arraytidak didukung
+Jika kita memaksa memasukkan data bukan number di indexArray,maka JavaScript akan merubah tipe data Array tersebut menjadi object,dan ini bisa berbahaya,karena beberapa operasi di array mungkin bisa berubah hasilnya
+
+-Tipe Data Object
+tipe data object adalah tipe data yang mirip dengan tipe data Array
+Yang membedakan adalah index pada tipe data object bisa menggunakan string
+index di object biasanya disebut attributes atau properties,bukan index
+contoh: 
+const property = {};
+
+        //Menambahkan & Mengubah Isi Object
+        property["nama"] = "Sabda Setiawan";
+        property["umur"] = 12;
+        property["alamat"] = "Jl.Sepakat";
+        
+        console.table(property);
+        
+        //Menghapus Object
+        delete property["umur"];
+        console.table(property);
+
+        const mhs = {
+        nama : "Sabda Setiawan",
+        npm  : "193510101",
+        kelas : "5B",
+        umur : 21
+        };
+        console.table(mhs);
+
+        //Mencari Informasi Di Object
+        docuentm.writeln(`Nama : ${mhs.nama}`);
+ 
