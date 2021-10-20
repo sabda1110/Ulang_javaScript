@@ -73,3 +73,14 @@ const property = {};
         //Mencari Informasi Di Object
         docuentm.writeln(`Nama : ${mhs.nama}`);
  
+ -If Expression
+ Dalam JavaScript,if adalah salah satu kata kunci yang digunakan untuk percabangan
+ percabangan artinya kita bisa mengekseskus kode program tertentu ketika suatu kondisi terpenuhi
+ Hampir di semua bahasa pemrograman mendukung if Expression
+
+ -Popup
+ Alert,Prompt dan Confirm
+ JavaScript memiliki Fitur yang bernama alert,prompt dan Confirm
+ Alert digunakan untuk memberikan peringatan berupa popup text di browser
+ Prompt digunakan untuk meminta input string dari pengguna browser dalam bentuk popup input text
+ sedangkan confirm digunakan untuk meminta input boolean dari pengguna browser dalam bentuk popup input pilihan
