@@ -84,3 +84,35 @@ const property = {};
  Alert digunakan untuk memberikan peringatan berupa popup text di browser
  Prompt digunakan untuk meminta input string dari pengguna browser dalam bentuk popup input text
  sedangkan confirm digunakan untuk meminta input boolean dari pengguna browser dalam bentuk popup input pilihan
+
+ -Undefined
+ Undefined adalah sebua kata kunci di javascript
+ Undefined adalah sebuah tipe data
+ Sebua Variable yang belum di tambahkan nilai,maka artinya varible tersebut merupakan tipe Undefined
+ Kadang untuk programmer javascript pemula Undefined ini memang agak sedikit membingungkan
+ Undefined itu berbeda dengan null di bahasa pemrogram lain
+
+ -null
+ null merupakan representasi dari data kosong
+ null berbeda dengan undefined,null berati variable sudah ditambahkan valuenya,hanya saja value nya null
+ Sedangkan undefined adalah variable yang belum di tambahkan value apapun
+
+ -Switch Expression
+ Kadang kita hanya butuh menggunakan kondisi sederhana di if statement, seperti hanya menggunakan perbandingan ==
+ Switch adalah statemnet percabangan yang sama dengan if,namun lebih sederhana cara pembuatannya
+ kondisi di switch statement hanya untuk perbandingan
+  
+ -Operator typeof
+ typeof merupakan operator yang bisa kita gunakan untuk melihat tipe data sebua value atau variable
+ Karena Javascript merupakan dynamic language,jadi kadang kita perlu mengecek tipe data sebua value atau varible menggunakan operator typeof
+ hasil dari operator typeof adalah string tipe datanya
+
+ -Operator In
+ In operator adalah operator yang bisa dilakukan untuk mengecek apakah sebuah property ada di dalam object atau tidak
+ Jika property tersebut ada di object, maka hasilnya true, sedangkan jika tidak, maka hasilnya false
+ Tidak hanya di object,in juga bisa digunakan untuk mengecek index di Array
+ Jika nilai Undefined atau Null Tetap akan bernilai true karena dia hanya mengecek property/index bukan value
+
+ -Operator Ternary
+ Ternary operator adalah operator sederhana dari if statemen
+ Ternary operator terdiri dari kondisi yang dievaluasi,Jika menghasilkan true makan nilai pertama diambil,jika false,maka nilai kedua diambil
