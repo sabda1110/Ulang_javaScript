@@ -116,3 +116,61 @@ const property = {};
  -Operator Ternary
  Ternary operator adalah operator sederhana dari if statemen
  Ternary operator terdiri dari kondisi yang dievaluasi,Jika menghasilkan true makan nilai pertama diambil,jika false,maka nilai kedua diambil
+ 
+ -Nullish Coalescing Operator
+ Nullish value adalah null dan undefined
+ Null coalescing operator (??) mirip dengan ternary operator, yang membedakan adalah pada konidis,jika bernilai null dan undefined,baru value default nya diambil
+
+ -Optional Chaining
+ Optional Chaining Operator (?) merupakan operator yang digunakan untuk mengamankan ketika kita ingin mengakses property sebuah object dari data nullish
+ Jika kita mencoba mengakses property dari sebua object dari data nullish tanpa menggunakan optional chaining operator,maka akan terjadi error
+
+ -Falsy
+ Falsy atau kadang ditulis falsey.adalah value yang ketika dalam konteks boolean, dia dianggap false
+ Ini adalah salah satu fitur unik dari JavaScript, yang berguna,namun kadang juga sering membingungkan
+ Jadi di javascript,kondisi itu tidak hanya bisa boolean,tapi diluar booleab pun bisa,namun kita harus tahu beberapa data falsy,atau dianggap false
+
+ Data dianggap Falsey       -     Keterangan
+ false                            Boolean false
+ 0,-0                             Number 0 dan -0 dianggap false
+ "",'',``                         Semua string kosong di agnggap false     
+ null                             Null dianggap false
+ undefined                        undefined diangap false
+ NaN                              Not a Number dianggap false
+
+ -Truthy
+ Truthy adalah kebalikan dari falsy,dimana data nya dianggal bernilai true
+ Sederhana sekali sebenarnya untuk mengetahui sebua data itu adalah truthy, yaiut data yang bukan bernilai falsy
+
+ -Operaot Logika di Non Boolean
+ Sebelumnya kita sudah tau bahwa operator logika NAD (&&) dan OR (||) digunakan untuk dua data boolean
+ Namun berbeda di JavaScript,kita bisa menggunakan operator logikan AND dan OR untuk tipe data non boolean
+
+ -Operator OR di Non Boolean
+ Operator logka OR (||).membaca dari kiri ke Keterangan
+ Operato ini akan mengambil nilai pertama yang trutly
+ Jika tidak ada satupun yang bernilai truthy,makan yang terahkir yang akan di ambil
+
+ -Operator AND di Non Boolean
+ Operator logka OR (||).membaca dari kiri ke Keterangan
+ Operato ini akan mengambil nilai pertama yang falsyly
+ Jika tidak ada satupun yang bernilai truthy,makan yang terahkir yang akan di ambil
+
+-Break & Continue
+Pada switch statement,kita sudah mengenal kata kunci break,yaitu untuk menghentikan case dalam switch
+Samda dengan perulangan,break juga digunakan untuk menhentikan seluruh perulangan
+Namun berbeda dengan continue,continue digunakan untuk menghentikan perulangan saat ini,lalu melanjutkan ke perulangan selanjutnya
+
+-Label
+Label murapakan penanda yang bisa digunakan dengan kata kunci break dan continue
+Secara default saat kita melakukan break atau continue,dia akan melakukan terhadp perulangan dimana kode break dan continue itu digunakan
+Dengan menggunakan label,kita bisa melakukan break dan continue terhadap perulangan yang kita inginkan,asalkan pada perulangan kita gunakan label
+Untuk membuat label kita bisa gunakan nama label lalu diikuti dengan :(titik dua)
+
+-For In
+For in merupakan perulangan for yang digunakan untuk mengiterasi seluruh data property di object atau index di array 
+Walaupun for in bisa digunakan untuk Array,namun tidak tidak rekomendasikan untuk Array,karena biasanya kita jarang sekali butuh data index untuk Array,kita bisa menggunakan For OF(yang dibahas setelah ini)
+
+-For Of
+Jika Fo in digunakan untuk melakukan iterasi property atau index,berbeda dengan for of,ini digunakan untuk melakukan iterasi terhadap isi value dari iterable object,seperti Array, String dan lain-lain
+For of tidak bisa digunakan untuk melakukan iterasi data di object,karena object bukanlah iterable
