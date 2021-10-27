@@ -174,3 +174,28 @@ Walaupun for in bisa digunakan untuk Array,namun tidak tidak rekomendasikan untu
 -For Of
 Jika Fo in digunakan untuk melakukan iterasi property atau index,berbeda dengan for of,ini digunakan untuk melakukan iterasi terhadap isi value dari iterable object,seperti Array, String dan lain-lain
 For of tidak bisa digunakan untuk melakukan iterasi data di object,karena object bukanlah iterable
+
+-With statement
+With statemng merupakan fitur yang digunakan untuk menurunkan sebuah schope data
+Dengan menggunakan with statement,kita bisa mengakses property dalam sebuah data tanpa haru menyebutkan datanya
+Withstatement tidak di rekomendasikan
+
+-Function
+Function adalah blok kode program yang akan berjalan saat kita panggil
+Sebelumnya kita sudah menggunakan function writeln() untuk menampilkan tulisan di html
+Untuk membuat function,kita bisa menggunakan kata kunci function.lalu diikuti dengan nama function,kurang() dan diahkir dengan blok kurung
+Kita bisa memangil function dengan menggunakan nama function lalu diikuti dengan kurung()
+Di bahasa pemrog raman lain,function juga disebut method
+
+-Function Parameter
+Kita bisa mengirim informasi ke function yang kita panggil
+Untuk melakukan hal tersebut,kita perlu menambahkan parameter atau argument di function yang sudah kita bulat
+Parameter ditempatkan di dalam kurung() di deklrasi method
+Parameter bisa lebih dari satu,jika lebih dari satu,harus dipisah menggunakan tanda koma
+
+-Function Return value
+Secara default,function itu tidak menghasilkan value apapun jika kita ingin,kita bisa membuat sebuah function mengembalikan value
+Agar function bisa menghasilkan value,kita bisa menggunakan kata kunci return di dalam functionnya
+dan didalam blok function,untuk menghasilkan nilai tersebut,kita harus menggunakan kata kunci return,lalu diikuti dengan data yang ingin kita hasilkan
+Function hanya bisa mengembalikan satu data,jika kita ingin mengembalikan beberapa data sekaligus kita bisa menggunakan array sebagai return value nya
+
