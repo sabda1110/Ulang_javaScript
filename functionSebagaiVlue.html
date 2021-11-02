@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Sebagai Value</title>
+</head>
+<body>
+    <script>
+        function sayHello(nama){
+            console.info(`Hai ${nama}`);
+        }
+
+        let tes = sayHello;
+
+        sayHello('Sabda');
+        tes('Setiawan');
+
+        function giveMeName(callback) {
+            callback('Eko');
+        }
+
+        giveMeName(tes);
+        giveMeName(sayHello);
+    </script>
+</body>
+</html>

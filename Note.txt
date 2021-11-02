@@ -199,3 +199,26 @@ Agar function bisa menghasilkan value,kita bisa menggunakan kata kunci return di
 dan didalam blok function,untuk menghasilkan nilai tersebut,kita harus menggunakan kata kunci return,lalu diikuti dengan data yang ingin kita hasilkan
 Function hanya bisa mengembalikan satu data,jika kita ingin mengembalikan beberapa data sekaligus kita bisa menggunakan array sebagai return value nya
 
+-Menhentikan Ekseskusi Dengan Return
+Saat kita menggunakan kata kunci return,maka kode seteralah return tersebut tidak akan dieksekusi
+kita bisa menggunakan return untuk mengehntikan ekseskusi sebuah function
+
+-Optional Parameter
+Secara defualt,parameter di function itu optional
+Artinya kita tidak wajib mengisi value nya ketika memangil function
+Jika tidak ada value yang kita kirim ke parameter ketika memanggil function,maka secara otomatis parameter tersebut bernilai undefined
+
+-Default Parameter
+Sekarang kita tahu bahwa parameter itu optional,artinya kita bisa tidak memberi value terhadap parameter
+Parameter atau kita beri default value,artinya jika ketika kita tidak mengirim data ke parameter atau kita mengirim data undefined,maka secara otomatis parameter akan diisi oleh default value 
+
+-Rest Parameter
+Rest Parameter adalah fitur dimana kita bisa mengirim data sebanyak-banyak nya pada satu parameter,dan secara otomatis akan di konversi menjadi array
+Untuk membuat rest parameter, ada ketentuannya
+Rest parameter hanya boleh ada satu di function,tidak boleh lebih dari satu
+Rest parameter hanya boleh berda di posisi paling akhir,tidak boleh di depan atau di tengah,kecuali memang cuma ada 1 parameter
+Di bahasa prmrograman lain,ada juga yang bilang ini adalah varible argument 
+
+-Function sebagai Value
+Function tidak hanya bisa digunakan sebagai kode program yang dieksekusi,tapi bisa sebagai value
+Artinya,function bisa disimpam di variable,bisa juga dikirim melalu parameter ke function lainnya
