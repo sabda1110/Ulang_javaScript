@@ -222,3 +222,25 @@ Di bahasa prmrograman lain,ada juga yang bilang ini adalah varible argument
 -Function sebagai Value
 Function tidak hanya bisa digunakan sebagai kode program yang dieksekusi,tapi bisa sebagai value
 Artinya,function bisa disimpam di variable,bisa juga dikirim melalu parameter ke function lainnya
+
+-Anonymous Function
+Sebelumnya kita selalu membuat function dengan nama
+Kita juga bisa membuat function tanpa nama function atau istilahnya adalah Anonymous function
+kita bisa buat Anonymous function dalam sebuah variable atau bisa juga kita buat ketika mengisi parameter
+ 
+-Function dalam Function
+Tidak ada batasan dimana kita bisa membuat function
+Termasuk jika kita ingin membuat function di dalam sebuah function,kita bisa melakukannya
+Function yang terdapat didalam,kita sebut inner function
+Inner function hanya bisa diakses di tempat kita membuat function nya,tidak bisa diakses dari luar function nya  
+
+-Scope
+Scope merupakan area akses sebuah data
+ada dua jenis chope,global scope dan local scope
+Setiap kita membuat function,maka kita akan membuat local scope untuk function tersebut
+Data di global scope bisa diakses dari local scope,namun data di local scope hanya bisa diakses di local scope tersebut atai do scope local dibawahnya(dalam kasus function dalam function)
+
+-Recursive Function
+Recursive Function adalah kemampuan function memanggil function dirinya sendiri
+Kadang memang ada banyak problem,yang lebih mudah diselesaikan menggunakan recursive function,seperti contohnya kasus factorial
+    

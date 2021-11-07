@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rekursif</title>
+</head>
+<body>
+    <script>
+        //Tanpa Menggunakan Recursif
+        function faktorial(value){
+            let penampung = 1;
+            for(let i = 1 ; i<=value ; i++){
+                penampung *=i;
+            } 
+            return penampung;
+        }
+
+        console.info(faktorial(5));
+        
+    //Menggunakan Rekursif
+    function faktorialRekursif(value){
+        if(value===1){
+            return 1;
+        }else{
+            return value*faktorialRekursif(value-1);
+        }
+    }
+
+    console.info(faktorialRekursif(5));
+
+    </script>
+</body>
+</html>
