@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Generator</title>
+</head>
+<body>
+    <script>
+        function* createNames(){
+            yield "Sabda";
+            yield "Setiawan"
+        }
+ 
+        const names = createNames();
+
+        for(const penampung of names){
+            console.info(penampung);
+        }    
+
+
+
+        function* bilanganGanjil(batas){
+            for(let i = 1 ; i<batas;i++){
+                if(i%2===1){
+                    yield i;
+                }
+            }
+        }
+
+        const bilangan=bilanganGanjil(10);
+        for(const penampung of bilangan){
+            document.writeln(`<p>${penampung}</p>`);
+        }   
+    </script>
+</body>
+</html>

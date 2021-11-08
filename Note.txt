@@ -243,4 +243,19 @@ Data di global scope bisa diakses dari local scope,namun data di local scope han
 -Recursive Function
 Recursive Function adalah kemampuan function memanggil function dirinya sendiri
 Kadang memang ada banyak problem,yang lebih mudah diselesaikan menggunakan recursive function,seperti contohnya kasus factorial
-    
+
+-Function Generator
+Function generator adalah function yang digunakan untuk membuat data generator
+Generator adalah data yang bisa di interasi seperti Array
+Untuk membuat function generator,kita perlu menggunakan tanda * (bintang) setelah kita function
+Dan untuk mengembalikan data di tiap iterasi,kita bisa gunakan kata kunci yield diikuti datanya 
+
+-Arrow Function
+ Arrow function adalah alternatif pembuatan function yang lebih sederhana dari function biasanya
+ Namun terdapat limitasi dan juga tidak bisa digunakan di semua situasi
+ Dinamakan arrow function karena menggunakan tanda => (seperti panah)
+ Berikut contoh beberapa kekurangan arrow function
+    -Tidak memiliki fitur argumen object
+    -Tidak bisa menggunakan functionm generator
+    -Tidak bisa mengakses this()
+    -Tidak bisa mengakses super

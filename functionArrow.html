@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function</title>
+</head>
+<body>
+    <script>
+        const arrowFunction = (name) =>{
+            const penampung = name;
+            document.writeln(`<p>Hello : ${penampung}</p>`);
+        }
+        arrowFunction('Sabda Setiawan');
+        
+
+        //Tanpa Menggunakan Block(Kurung kurwal)
+        const arrowFunctionDua = (name) => console.info(name);
+
+        arrowFunctionDua('Fahri Ananda');
+
+
+        //Mengembalikan Nilai Menggunakan return
+
+        const penjumlahan = (nilaiA,nilaiB) =>{
+            const jumlah = nilaiA+nilaiB;
+            return jumlah;
+        }
+
+
+        const penampung = penjumlahan(10,10);
+        document.writeln(penampung);
+
+
+        //arrowFunction Sebagai Parameter
+
+        function pemanggilan(callback){
+            callback('Saridad');
+        }
+
+        const value = (name) =>{
+            console.info(`Hello ${name}`);
+        }
+        pemanggilan(value);
+    </script>
+</body>
+</html>
