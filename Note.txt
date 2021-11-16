@@ -259,3 +259,12 @@ Dan untuk mengembalikan data di tiap iterasi,kita bisa gunakan kata kunci yield 
     -Tidak bisa menggunakan functionm generator
     -Tidak bisa mengakses this()
     -Tidak bisa mengakses super
+-Closure
+Closure adalah kombinasi function dan bundel referensi ke data disekitarnya
+Dengan kekmpuan closure,kita bisa membuat sebuah function di local scope dan referensi ke data di sekitar local scope tersebut,keluar scopenya
+
+-Object Method
+Pada tipe object,kita sudah membahas tentang property di object
+Karena sebenarnya function juga merupakan salah satu tipe data, jadi function pun sebenarnya bisa di tambahkan sebagai property di object
+Cara pembuatannya pun sama dengan function sebagai value
+function di object kadang disebut juga sebagai Object Method
