@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructuring</title>
+</head>
+<body>
+    <script>
+        {
+        const names = ['sabda','setiawan','fahri','ananda','arkha','iki'];
+
+        const [firstName,midName,lastName,...other] = names
+
+        console.info(firstName);
+        console.info(lastName);
+        console.info(midName);
+        console.info(other);
+         }
+
+         {
+             const person = {
+                 firstName : 'Sabda',
+                 lastName : 'Setiawan',
+                 addres : {
+                     stret : 'Jl.Meranti No 2',
+                     city : 'Pekanbaru',
+                     country : 'Indonesia'
+                 },
+                 hobby : 'Game',
+                 channel : 'MLI'
+             }
+
+             const {firstName,lastName,addres:{stret,city,country},...outher} = person;
+             console.info(firstName);
+             console.info(lastName);
+             console.info(country);
+             console.info(outher)
+         }
+         {
+             function displayPerson({firstName,lastName}){
+                 console.info(firstName)
+                 console.info(lastName)
+                 
+             }
+
+             const person = {
+                 firstName : 'Sabda',
+                 lastName : 'Setiawan'
+             }
+
+             displayPerson(person);
+         }
+
+         {
+             function sum ([awal,ahkir]){
+                 return  awal+ahkir;
+             } 
+
+             console.info(sum([1,1]));
+             console.info(sum([10,10]));
+         }
+    </script>
+</body>
+</html>

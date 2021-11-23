@@ -268,3 +268,18 @@ Pada tipe object,kita sudah membahas tentang property di object
 Karena sebenarnya function juga merupakan salah satu tipe data, jadi function pun sebenarnya bisa di tambahkan sebagai property di object
 Cara pembuatannya pun sama dengan function sebagai value
 function di object kadang disebut juga sebagai Object Method
+
+-Getter dan Setter
+Getter dan Setter adalah kemampuan membuat function yang berbeda untuk mengambil data (Getter) dan mengubah data(Setter) pada sebuah property di Object
+Dengan menggunakan Getter dan Setter,kita bisa melakukan hal apapun dalam function sebelum sebuah property di akses atau diubah,misal menambahka validasi dan lain-lain 
+
+-Destructuring
+Destructuring adalah fitur yang bisa digunakan untuk membongkar value-value di array atau object ke dalam variable-variable
+Fitur ini sangat mempermudah kita ketika ingin mengambil data dari array atau object tanpa harus melakukan pengambilan data satu persatu
+ ->Destructuring Function Parameter
+   Destructuring tidak hanya bisa dilakukan di variable,tapi juga bisa dilakukan di function parameter
+   Hal ini membuat kita mudah ketika ingin mengambil nested data dalam array atau object dalam function
+ ->Default Value
+   Yang paling menarik di Destructuring adalah,kita bisa menambahka default value
+   Jadi misal kita melakukan Destructuring terhadap array,ternyata tidak ada datanya,maka kita bisa menambahkan default value
+   Begitu juga pada object,jika ternyata propert nya tidak ada,maka kita bisa menambahkan default value 
