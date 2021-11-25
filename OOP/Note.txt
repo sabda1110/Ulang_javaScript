@@ -1,0 +1,31 @@
+JAVASCRIPT Object Oriented Programming
+
+ -Pengenalan OOP
+ Object Oriented Programming adalah sudut pandang bahasa pemrograman yang berkonsep 'Objek'
+ Ada banyak sudut pandang bahasa pemrograman,namun OOP adalah yang sangat populer saat ini
+ Ada beberapa istilah yang perlu dimengerti dalam OOP,yaitu:Object dan Class 
+
+   ->Pengertian Class
+   Class adalah blueprint,prototype atau cetakan untuk membuat object
+   Class berisikan deklrasi semua properties dan functions yang dimiliki oleh object
+   Setiap object selalu dibuat dari class
+   Dan sebuah class bisa membuat object tanpa batas  
+
+   ->OOP di javascript
+   Javascript sendiri sebenarnya sejak awal dibuat sebagai bahasa prosedural,bukan bahasa pemrogaman berorientasi objek
+   Oleh karena,implementasi OOP di JavaScript memang tidak sedetail bahasa pemrogaman lain yang memang dari awal merupakan bahasa pemrogaman OOP seperti Java atau C++
+
+ -Membuat Constructor Function
+ sebenarnya kita sudah belajar tipe data object,dengan cara membuat variable dengan tipe data object
+ Namun pembuatan object menggunakan tipe data object,akan membuat object yang selalu unik,object dengan karakteristik yang sama berkali-kali,tanpa harus mendeklarasikan object berkali-kali seperti menggunakan tipe data object  
+ Sebelum ECMAScript versi 6, pembuatan class,biasanya menggunakan function,Hal ini dikarenakan sebenarnya JavaScript bukanlah bahasa pemrograman yang fokus ke OOP
+ Untuk membuat class di JavaScript,kita bisa membuat function
+ Function ini kita sebut dengan Constructor Function  
+    
+    ->Membuat Object dari Constructor Function
+    Setelah kita membuat class,jika kita ingin membuat object dari class tersebut,kita bisa menggunakan kata kunci new,lalu diikuti dengan nama Constructor function nya
+
+ -Property di Constructor Function
+ Sebenarnya setelah kita membuat object,kita bisa dengan mudah menambahka propert ke dalam object tersebut hanya dengan menggunakan nama variablenya,diikuti tanda titik dan nama property
+ Namun jika itu,alhasil Constructor function yang sudah kita buat tidak terlalu berguna,karena property nya hanya ada di object yang kita tambahkan property
+ Untuk menambahka property di dalam semua object yang dibuat dari Constructor function,kita bisa menggunakan kata kunci this lalu diikuti dengan nama property nya   

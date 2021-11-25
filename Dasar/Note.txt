@@ -283,3 +283,19 @@ Fitur ini sangat mempermudah kita ketika ingin mengambil data dari array atau ob
    Yang paling menarik di Destructuring adalah,kita bisa menambahka default value
    Jadi misal kita melakukan Destructuring terhadap array,ternyata tidak ada datanya,maka kita bisa menambahkan default value
    Begitu juga pada object,jika ternyata propert nya tidak ada,maka kita bisa menambahkan default value 
+
+-Strict Mode
+ Saat kita menjalankan kode program JavaScript,secara default kode program kita berjalan dalam mode tidak strict, atau istilahnya sloopy mode
+ Pada ECMAScript5, diperkenalkan mode strict,dimana ketika strict mode dijalankan,maka akan merubaha beberapa cara kerja di javascript,seperti:
+   ->Merubaha beberapa JavaScript error dari yang tidanya silent error,menjadi throw error(terlihat)
+   ->Memperbaiki beberapa kesalahan engine JavaScript untuk optimasi
+   ->Menolak beberapa kode perintah yang kedepannya akan digunakan di ECMAScript  
+  # Cara Menyalakan Strict Mode
+    Untuk menyalakan strict mode,kita bisa menambahka `use strict` pada baris awal file javascript kita
+    Atau bisa juga ditambahkan di awal function kita 
+
+-Debugger
+ Debugger digunakan untuk melakukan proses debugging
+ Debugging adalah proses mencari bug(masalah) yang bisa terjadi di kode program kita
+ Dengan debugger kita bisa menghentikan kode program di posisi yang kita inginkan (breakpoint),lalu melihat semua isi variable yang ada pada saat kode program sedang berhenti
+ 
