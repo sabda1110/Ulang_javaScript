@@ -9,19 +9,23 @@
 <body>
     <script>
 
-        function Person(){   //Constructor Function
-          this.firstName = ''; //Menambahkan Variable untuk seluruh object
-          this.lastName = '';
+        function Person(firstName,lastName){   //Constructor Function
+          this.firstName = firstName; //Menambahkan Variable untuk seluruh object
+          this.lastName = lastName;
+          this.sayHello = function(name){
+            console.info(`Halo ${name} nama saya adalah ${this.firstName}`)
+          }
         }
         
-        const sabda = new Person();
-        sabda.firstName = 'Sabda'; //Mengubah Value dari Constructor Funcntion
-        sabda.lastName = 'Setiawan';
+        const sabda = new Person('Sabda','Setiawan');
+        // sabda.firstName = 'Sabda'; //Mengubah Value dari Constructor Funcntion
+        // sabda.lastName = 'Setiawan';
+        sabda.sayHello('Joko')
 
-        const rahmat = new Person(); //Object
-        rahmat.firstName = 'Rahmat';
-        rahmat.lastName = 'Ardiansyah';
-
+        const rahmat = new Person('Rahmat','Ardiansyah'); //Object
+        // rahmat.firstName = 'Rahmat';
+        // rahmat.lastName = 'Ardiansyah';
+        rahmat.sayHello('Joko');
 
         console.info(sabda);
         console.info(rahmat);

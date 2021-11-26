@@ -29,3 +29,11 @@ JAVASCRIPT Object Oriented Programming
  Sebenarnya setelah kita membuat object,kita bisa dengan mudah menambahka propert ke dalam object tersebut hanya dengan menggunakan nama variablenya,diikuti tanda titik dan nama property
  Namun jika itu,alhasil Constructor function yang sudah kita buat tidak terlalu berguna,karena property nya hanya ada di object yang kita tambahkan property
  Untuk menambahka property di dalam semua object yang dibuat dari Constructor function,kita bisa menggunakan kata kunci this lalu diikuti dengan nama property nya   
+
+ -Method di construktor function
+ Sama seperti pada tipe data object biasanya,kita juga bisa menambahkan method dalam construktor function
+ Jika kita tambahkan method di construktor function secara otomatis object yang dibuat akan memeiliki method tersebut
+
+ -Parameter di Constructor Function
+  Karena dalam JavaScript,class adalah berbentuk function,jadi secara default,function tersebut bisa memiliki parameter
+  construktor function sama seperti function biasanya,bisa memiliki parameter,hal ini membuat ketika kita membuat object,jita bisa mengirim langsung data lewat parameter di construktor function tersebut
