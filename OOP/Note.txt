@@ -37,3 +37,25 @@ JAVASCRIPT Object Oriented Programming
  -Parameter di Constructor Function
   Karena dalam JavaScript,class adalah berbentuk function,jadi secara default,function tersebut bisa memiliki parameter
   construktor function sama seperti function biasanya,bisa memiliki parameter,hal ini membuat ketika kita membuat object,jita bisa mengirim langsung data lewat parameter di construktor function tersebut
+
+ -Constructor Inheritance 
+ Dalam Constructor kita biasanya membuat property baik itu berisi value ataupun function
+ Di dalam constructor,kita bisa memanggil constructor lain,dengan begitu kita bisa mewarisi semua property yang dibuat di constructor lain tersebut
+ Untuk memangil constructor lain,kita bisa menggunakan NamaConstructor.call(this, parameter)
+
+ -Prototype
+ JavaScript sebelumnya dikenal dengan pemrograman berbasi prototype
+ Memang agak sedikit membingungkan,dan tidak dipungkiri,banyak sekali yang bingung dengan konsep prototype di JavaScript
+ Pada chapter ini,kita akan bahas tentang konsep prototype 
+  ->Prototype Inheritance
+  Saat kita membuat object dari constructor function,object tersebut disebut instance,semua prototype(baik itu value atau method),akan berada di dalam instance object nya
+  Setiap kita membuat sebuah constructor function,maka secara otomatis akan dibuatkan prototype nya,misal ketika kita membuat constructor function Person,maka akan ada person.prototype
+  Saat kita membuat object instance,secara otomatis object tersebut adalah turunan dari Constructor.prototype nya
+  Untuk mengakses prototype milih sebua instance,kita bisa menggunakan _proto_
+
+  ->Menambah Property ke Prototype
+  Property mirip object,diaman kita bisa menambahkan baik itu value ataupun method
+  Saat kita menambah sebuah property ke prototype,secara otomatis,semua object instance yang turunan dari prototype tersebut akan memiliki property tersebut 
+
+  ->Cara Kerja Prototpe Inheritance
+  Bagaimana bisa property di prototype di object instance,pertama akan di cek apakah di object tersebut terdapat property tersebut atau tidak,jika tidak,maka akan di cek di _proto_(prototpe) nya,jika masih tidak ada,akan di cek lagi di _proto_ (prototype) yang lebih tinggi,begitu seterusnya sampai berahkir di Object Prototype
