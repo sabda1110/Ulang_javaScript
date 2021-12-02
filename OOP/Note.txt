@@ -68,3 +68,13 @@ Hal ini juga bisa dilakukan, namun agak sedikit tricky, karena hal ini, sebenarn
 -Class
 Sejak ECMAScript versi 6,diperkenalkan kata kunci baru,yaitu class,ini merupakan kata kunci yang digunakan untuk membuat class di JavaScript
 Dengan kata kunci class,kita perlu lagi menggunakan constructor function untuk membuat class
+
+-construktor funtion 
+construktor bentuk constructor mirip frngan function,jadi kita bisa menambah parameter pada constructor function,lantas bagaiaman dengan class?
+di class juga bisa menambah construktor,dimana menggunakan construktor,kita juga bisa menambah parameter saat pertama kali membuat object nya
+untuk membuat construktor di classkita bisa menggunakan kata kunci construktor 
+
+-Property di class  
+Sama seperti pada construktor function dalam class pun kita bisa menambahkan proprty 
+karena hasil akhrinya adalah object, jadi menambahkan property di class bisa juga dilakukan di instance object 
+
