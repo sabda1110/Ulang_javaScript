@@ -78,3 +78,21 @@ untuk membuat construktor di classkita bisa menggunakan kata kunci construktor
 Sama seperti pada construktor function dalam class pun kita bisa menambahkan proprty 
 karena hasil akhrinya adalah object, jadi menambahkan property di class bisa juga dilakukan di instance object 
 
+-Method di class
+Membuat method di class sebenarnya bisa dilakukan dengan cara seperti menambahkan method di constructor function
+Namun,hal tersebut sebenarnya menambahka method ke dalam instance object
+Khusu untuk method sebaiknya kita menambahkan ke prototype,bukan ke instance object
+Untung nya di class,ada cara mudah menambahkan method dan secara otomatis ditambahkan ke prototype 
+
+-Class Inheritance
+sebelumnya kita sudah tahu bahwa prototype mendukung pewarisan,walaupun agak sedikit tricky cara pembuatannya
+Untungnya itu diperbaiki di ES6 dengan fitur classnya
+Sebuah class bisa melakukan pewarisan dari class laiinya dengan menggunakan kata kuncti extends
+Di JavaScript,class Inheritance sama seperti prototype Inheritance,hanya bisa memiliki satu parent class
+
+-Super Constructor
+Class Inheritance sifatnya seperti prototype Inheritance
+Bagaimana dengan Constructor Inheritance? sebenarnya constructor Inheritance hanyalah melakukan eksekusi constructor lain dengan tujuan agar property constructor lain busa ditambahkan ke instance object ini
+Dalam kasus ini,jika kita ingin mencapai hasil yang sama,kita bisa menggunakan kata kunci super di dalam constructor
+Kata kunci super digunakan untuk memanggil consttructor super class
+Jika di child class kita membuat constructor,maka kita wajib memanggil parent constructor walaupun parent nya tidak ada constructor
