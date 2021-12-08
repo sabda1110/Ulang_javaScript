@@ -96,3 +96,12 @@ Bagaimana dengan Constructor Inheritance? sebenarnya constructor Inheritance han
 Dalam kasus ini,jika kita ingin mencapai hasil yang sama,kita bisa menggunakan kata kunci super di dalam constructor
 Kata kunci super digunakan untuk memanggil consttructor super class
 Jika di child class kita membuat constructor,maka kita wajib memanggil parent constructor walaupun parent nya tidak ada constructor
+
+-Super method 
+Selain digunakan untuk memangill condtructor milih parent class, kata kunci super juga bisa digunakan untuk mengakses method parent class
+caranya bisa menggunakan super titik nama function nya
+Dengan kata lain. Super sebenarnya adalah refrences ke parent prototype , mirip seperti _proto_
+
+
+-Geter dan Seter
+
