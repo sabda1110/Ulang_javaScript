@@ -1,0 +1,30 @@
+[
+  {
+    "nama": "Sabda Setiawan",
+    "npm": 193510101,
+    "email": "sabdasetiawan206@gmail.com",
+    "jurusan": "Teknik Informatika",
+    "idDosen": 1
+  },
+  {
+    "nama": "Budi Ariandi",
+    "npm": 193510102,
+    "email": "budiAriandi206@gmail.com",
+    "jurusan": "Teknik Informatika",
+    "idDosen": 2
+  },
+  {
+    "nama": "Rena Setiawan",
+    "npm": 193510103,
+    "email": "renaSetiawan206@gmail.com",
+    "jurusan": "Teknik Informatika",
+    "idDosen": 3
+  },
+  {
+    "nama": "Rahmat Ardiansyah",
+    "npm": 193510104,
+    "email": "sabdasetiawan206@gmail.com",
+    "jurusan": "Teknik Informatika",
+    "idDosen": 4
+  }
+]

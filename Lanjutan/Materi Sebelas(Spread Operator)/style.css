@@ -1,0 +1,19 @@
+body{
+    background-color: cadetblue;
+}
+
+.name {
+    text-align: center;
+    color: white;
+}
+
+.name  span:hover{
+ 
+    transform: scale(2) translateY(-20);
+    
+}
+
+.name span {
+    transition: .2s;
+    display: inline-block;
+}
